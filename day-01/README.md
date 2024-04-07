@@ -1,9 +1,7 @@
 # Day-1 | Introduction to AWS | What is Public Cloud ? | Create an AWS Account
 ## Introduction
-- The speaker introduces himself and welcomes viewers to the first episode of the AWS Zero to Hero series.
 - This series aims to provide foundational knowledge about public cloud and AWS.
-- The speaker encourages viewers to watch the entire video before proceeding.
-- This is a 30-day series where viewers will learn something new about AWS from a DevOps engineer's perspective.
+- This is a 30-day series where we will learn something new about AWS from a DevOps engineer's perspective.
 
 ## Agenda 
 - Understand what cloud computing is.

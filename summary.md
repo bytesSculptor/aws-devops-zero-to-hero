@@ -38,4 +38,38 @@
 IAM is crucial for managing access to AWS resources securely and efficiently, ensuring that only authorized individuals and services have access.
 
 
-## 
+## 03 EC2
+
+**Introduction to EC2 (Elastic Compute Cloud)**
+
+- **What is EC2**: Amazon EC2 is a service that lets you use virtual computers in the cloud.
+- **Key Features**: It's reliable, scalable, and secure, with options to save money and improve performance.
+- **Use Cases**: EC2 is used for various tasks like running websites, databases, or scientific simulations.
+
+**EC2 Instance Types**
+
+- **General Purpose**: Good for a wide range of tasks like web servers or testing environments.
+- **Compute Optimized**: Best for tasks that need a lot of processing power, like gaming servers.
+- **Memory Optimized**: Great for tasks that need a lot of memory, like big data analytics.
+- **Storage Optimized**: Ideal for tasks that need fast access to large amounts of data, like data warehousing.
+
+**Instance Families**
+
+- These are groups of instances designed for specific purposes, like computing (C) or storage (D).
+- Some instances have special capabilities, like support for specific processors or high-performance networking.
+
+**EC2 Instance Basics**
+
+- Virtual servers you can use in the cloud.
+- Important parts include AMI (the software for your server), instance types (like the size of your server), and instance states (whether your server is running or stopped).
+
+**Launching an EC2 Instance**
+
+- Steps for setting up and launching a virtual server using the AWS Management Console.
+- Configuring details like the type of server, network settings, and storage options.
+
+**Managing EC2 Instances**
+
+- Controlling your virtual servers by starting, stopping, and deleting them.
+- Checking how well your servers are running and fixing any issues.
+- Accessing your servers securely using SSH.
