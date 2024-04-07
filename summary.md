@@ -73,3 +73,24 @@ IAM is crucial for managing access to AWS resources securely and efficiently, en
 - Controlling your virtual servers by starting, stopping, and deleting them.
 - Checking how well your servers are running and fixing any issues.
 - Accessing your servers securely using SSH.
+
+## 04 VPC
+
+A VPC is like your own private, secure space in the cloud where you can run applications and store data. It's like having your own internet within the bigger internet. You can create subnetworks (subnets) within your VPC to organize your resources. You can control who can access your resources and how they can communicate by setting up rules and security measures. You can connect your VPC to the internet or other networks using gateways. Overall, a VPC gives you control over your network environment in the cloud.
+
+Key Components of a VPC:
+
+1. **VPC**: Your virtual network in the cloud.
+2. **Subnets**: Ranges of IP addresses within your VPC.
+3. **IP Addressing**: Assigning IP addresses to your VPC and subnets.
+4. **Network Access Control List (NACL)**: A firewall for controlling traffic at the subnet level.
+5. **Security Group**: A firewall for controlling traffic at the instance level.
+6. **Routing**: Determining where network traffic is directed.
+7. **Gateways and Endpoints**: Connecting your VPC to other networks or AWS services.
+8. **Peering Connections**: Routing traffic between two VPCs.
+9. **Traffic Mirroring**: Copying network traffic for monitoring.
+10. **Transit Gateways**: Routing traffic between VPCs, VPNs, and AWS Direct Connect.
+11. **VPC Flow Logs**: Capturing information about IP traffic in your VPC.
+12. **VPN Connections**: Connecting your VPC to on-premises networks.
+
+When you create an AWS account, AWS provides a default VPC, but you should create VPCs for specific applications or projects.
