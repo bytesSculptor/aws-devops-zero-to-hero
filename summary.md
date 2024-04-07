@@ -1,6 +1,6 @@
 # Summary of AWS Notes
 
-## Introduction to AWS and Public Cloud
+## 01 Introduction to AWS and Public Cloud
 
 - **Cloud Computing**: Cloud computing means using internet-based services to access resources like servers and storage. It's more cost-effective and efficient than traditional methods.
 - **Public Cloud vs. Private Cloud**: Public cloud is shared and managed by third-party providers like AWS, while private cloud is exclusive to one organization and managed by them.
@@ -94,3 +94,26 @@ Key Components of a VPC:
 12. **VPN Connections**: Connecting your VPC to on-premises networks.
 
 When you create an AWS account, AWS provides a default VPC, but you should create VPCs for specific applications or projects.
+
+## 05 AWS Security using Security Groups and NACL
+Security Groups and Network Access Control Lists (NACLs) are like virtual barriers that protect your AWS resources from unauthorized access. 
+
+- **Security Groups** work at the level of individual servers (EC2 instances). They decide what traffic is allowed to go in and out of each server based on rules you set. For example, you can allow traffic only on specific ports or from certain IP addresses. Security Groups are smart; if you allow traffic in, it automatically allows the corresponding outbound traffic out. Changes you make to Security Groups take effect right away.
+
+- **NACLs**, on the other hand, work at the level of groups of servers (subnets). They are like gatekeepers that decide which traffic is allowed to enter or leave a group of servers. Unlike Security Groups, NACLs are not as smart; if you allow traffic in, you have to separately allow the corresponding outbound traffic out. Changes to NACLs might take a bit of time to apply everywhere.
+
+Both Security Groups and NACLs are important for keeping your AWS resources safe by controlling the traffic that can access them.
+
+## 06 Route 53
+
+**Route 53** is a service by AWS that helps map domain names to IP addresses, making it easier to access applications. It simplifies DNS management for AWS-hosted applications. Route 53 intercepts user requests and translates domain names to IP addresses of load balancers.
+
+DNS is important because it allows users to access applications using easy-to-remember domain names instead of complex IP addresses. Route 53 provides DNS as a service for AWS services like EC2 or EKS.
+
+**Domain registration** can be done through AWS or externally. Hosted zones are used to create DNS records, regardless of where the domain is purchased.
+
+Route 53 can perform health checks to monitor the health of web applications or servers.
+
+For further learning, AWS provides detailed documentation with practical examples about Route 53.
+
+
