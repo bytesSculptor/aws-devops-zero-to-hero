@@ -120,3 +120,7 @@ For further learning, AWS provides detailed documentation with practical example
 # Day-7 AWS Project Used In Production
 - VPC demo project - [Youtube Tutorial Video](https://youtu.be/FZPTL_kNvXc)
 - Detailed Steps: [Day-7 Readme](https://github.com/bytesSculptor/aws-devops-zero-to-hero/blob/main/07-day/README.md)
+
+# Day-8 AWS Scenario Based Interview Question
+
+- Ques + Answers: [Day-8 Interview q&a](https://github.com/bytesSculptor/aws-devops-zero-to-hero/blob/main/08-day/Interview_q&a.md)
