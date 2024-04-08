@@ -117,3 +117,6 @@ Route 53 can perform health checks to monitor the health of web applications or 
 For further learning, AWS provides detailed documentation with practical examples about Route 53.
 
 
+# Day-7 AWS Project Used In Production
+- VPC demo project - https://youtu.be/FZPTL_kNvXc
+- Detailed Steps: 
